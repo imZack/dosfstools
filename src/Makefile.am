@@ -14,7 +14,7 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-AM_CFLAGS = -Wall -Wextra -Wno-sign-compare -Wno-missing-field-initializers \
+AM_CFLAGS = -Wall -Wno-sign-compare \
 	    -Wmissing-prototypes -Wstrict-prototypes -Wwrite-strings
 
 sbin_PROGRAMS = fsck.fat mkfs.fat fatlabel
